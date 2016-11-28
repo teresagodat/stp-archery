@@ -1,0 +1,143 @@
+/* -------------------------------- 
+
+Background 
+
+-------------------------------- */
+main {
+  /* this is the page background */
+    background-color: #94877e;
+    font-family: 'Droid Serif', serif;
+}
+
+/* -------------------------------- 
+
+Logo 
+
+-------------------------------- */
+header img {
+    height: 8rem;
+    width: 8rem;
+  
+}
+/* -------------------------------- 
+
+Navigation 
+
+-------------------------------- */
+header {
+    background-color: white;
+    height: 10rem;
+    padding: 1rem;
+}
+
+nav a {
+    color: #94877e; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: #d6e8b8;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #523e33;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+header a {
+    float: right;
+    font-weight: normal;
+    font-family:calibri;
+    padding: 10px 5px;
+    font-size: 1.2rem;
+    color: #523e33;
+}
+
+/*----------------------------- 
+
+Typography 
+
+-------------------------------- */
+
+main {
+    color:  #523e33;
+}
+
+main {
+    border: 1rem solid #523e33;
+}
+h1, h2 {
+    font-family: 'Crete Round', serif;
+}
+
+h1 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0 0 .4em;
+}
+
+
+h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 1em 0;
+
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  
+}
+p a {
+    color:  #d6e8b8;
+    text-decoration: underline;
+}
+
+footer { 
+    clear: both;
+    background-color: white;
+    color: white;
+    height: 10rem;
+    padding: 1rem;
+    text-align: center;
+  
+  
+  }
+/* -------------------------------- 
+
+Buttons 
+
+-------------------------------- */
+.btn {
+    border: none;
+    box-shadow: none;
+    border-radius: .25em;
+    font-size: 1.2rem;
+    font-family: 'Droid Serif', serif;
+    color: white;
+    padding: .4em 1.8em;
+    cursor: pointer;
+    background: #94c840;
+}
+.btn.btn-success {
+    background: #523e33;
+}
+
+/* -------------------------------- 
