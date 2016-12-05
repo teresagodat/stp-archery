@@ -128,6 +128,11 @@ p a {
 section {
   border-top: .5rem solid #94c840;
   color: #3B1F07;
+  padding-bottom: 25rem;
+}
+
+section a {
+  font-size: 1.3rem;
 }
 
 section h1, h2, h3, p {
