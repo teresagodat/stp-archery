@@ -26,6 +26,7 @@ footer {
     color: #523e33;
     text-align: center;
     border-top: .5rem solid #94c840;
+    font-family: 'Proza Libre', sans-serif;
  
   }
 
@@ -43,7 +44,7 @@ h2 {
 }
 
 h1, h2 {
-    font-family: 'Crete Round', serif;
+    font-family: 'Proza Libre', sans-serif;
 
 }
 
@@ -52,13 +53,13 @@ header {
     height: 6rem;
     padding: 1rem;
     color: #523e33;
-  border-bottom: .5rem solid #94c840;
+    border-bottom: .5rem solid #94c840;
 }
 
 header a {
     float: right;
     font-weight: normal;
-    font-family:calibri;
+    font-family: 'Proza Libre', sans-serif;
     padding: 10px 5px;
     font-size: 1.2rem;
     color: #523e33;
@@ -82,7 +83,7 @@ header img {
 main {
   /* this is the page background */
     background-color: #94877e;
-    font-family: 'Droid Serif', serif;
+   font-family: 'Proza Libre', sans-serif;
     padding-bottom: 3rem;
     
    
@@ -90,6 +91,7 @@ main {
 
 nav a {
     color: #94877e; 
+  font-family: 'Proza Libre', sans-serif;
 }
 
 nav ul {
@@ -125,27 +127,36 @@ p a {
 
 section {
   border-top: .5rem solid #94c840;
+  color: #3B1F07;
 }
 
 section h1, h2, h3, p {
   padding-left: .75rem;
   font-weight: normal;
-  font-family:calibri;
+  font-family: 'Proza Libre', sans-serif;
 }
-.span_1_of_3 img {
-  width: 20rem;
-  height: 15rem;
-  padding-left: .75rem;
 
+section h2 {
+  margin-bottom: -.5rem;
+}
+
+section h3 {
+  text-decoration: underline;
 }
 
 section div h2, p {
   padding-top: 1rem;
   padding-right: 1rem;
-  font-family: 'Droid Serif', serif;
+  font-family: 'Proza Libre', sans-serif;
   
 }
 
+.span_1_of_3 img {
+  width: 20rem;
+  height: 15rem;
+  padding-left: 1.1rem;
+
+}
 .span_1_of_2 img {
     max-width: 100%;
   width: 29rem;
