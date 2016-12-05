@@ -1,0 +1,151 @@
+
+
+html {
+    font-size: 16px;
+    margin-right: 13rem;
+    margin-left: 13rem;
+    background-color: #523e33
+}
+
+
+
+body {
+   border: .5rem solid #94c840;
+
+}
+
+footer { 
+    clear: both;
+    background-color: white;
+    color: #523e33;
+    height: 6rem;
+    padding: 1rem;
+    text-align: center;
+     border-top: .5rem solid #94c840;
+ 
+  }
+
+h1 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0 0 .4em;
+}
+
+h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 1em 0;
+
+}
+
+h1, h2 {
+    font-family: 'Crete Round', serif;
+
+}
+
+header {
+    background-color: white;
+    height: 6rem;
+    padding: 1rem;
+    color: #523e33;
+  border-bottom: .5rem solid #94c840;
+}
+
+header a {
+    float: right;
+    font-weight: normal;
+    font-family:calibri;
+    padding: 10px 5px;
+    font-size: 1.2rem;
+    color: #523e33;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 2.5rem;
+    letter-spacing: .30rem;
+    
+}
+
+header img {
+    float: left;
+    height: 6rem;
+    width: 6rem;
+  }
+
+
+
+main {
+  /* this is the page background */
+    background-color: #94877e;
+    font-family: 'Droid Serif', serif;
+    padding-bottom: 3rem;
+    
+   
+}
+
+nav a {
+    color: #94877e; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: #d6e8b8;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #523e33;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+p a {
+    color:  #d6e8b8;
+    text-decoration: underline;
+}
+
+section {
+  border-top: .5rem solid #94c840;
+}
+
+section h1, h2, h3, p {
+  padding-left: .75rem;
+  font-weight: normal;
+  font-family:calibri;
+}
+.span_1_of_3 img {
+  width: 20rem;
+  height: 15rem;
+  padding-left: .75rem;
+
+}
+
+section div h2, p {
+  padding-top: 1rem;
+  padding-right: 1rem;
+  font-family: 'Droid Serif', serif;
+  
+}
+
+.span_1_of_2 img {
+    max-width: 100%;
+  width: 29rem;
+  height: 30rem;
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+}
