@@ -145,14 +145,19 @@ section {
     max-width: 100%;
     height: auto;
     background-size: 100% auto !important;
-    border-top: .5rem solid #94c840;
-    margin-left: 2re,
+ 
+    margin-left: 2rem;
     color: #3B1F07;
     padding-bottom: 25rem;
 }
 
 section a {
     font-size: 1.3rem;
+}
+
+section aside {
+    font-size: 3rem;
+    color: greenyellow;
 }
 
 section h1, h2, h3, p {
@@ -188,8 +193,7 @@ section div h2, p {
 }
 
 .span_1_of_2 img {
-    width: 29rem;
-    height: 30rem;
+    width: 40em;
     max-width: 100%;
     height: auto;
     background-size: 100% auto !important;
