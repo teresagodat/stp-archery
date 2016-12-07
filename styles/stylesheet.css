@@ -145,10 +145,10 @@ section {
     max-width: 100%;
     height: auto;
     background-size: 100% auto !important;
- 
     margin-left: 2rem;
     color: #3B1F07;
     padding-bottom: 25rem;
+    padding-top: 1rem
 }
 
 section a {
@@ -197,4 +197,5 @@ section div h2, p {
     max-width: 100%;
     height: auto;
     background-size: 100% auto !important;
+    padding-top: 2.75rem;
 }
