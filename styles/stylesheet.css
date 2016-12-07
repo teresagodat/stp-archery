@@ -5,18 +5,14 @@ html {
     margin-right: 13rem;
     margin-left: 13rem;
     background-color: #523e33;
-     max-width: 100%;
-
+    max-width: 100%;
 }
-
-
 
 body {
     border: .5rem solid #94c840;
     max-width: 100%;
     width: 100%;
     height: 70%;
-
 }
 
 footer { 
@@ -30,7 +26,6 @@ footer {
     border-top: .5rem solid #94c840;
     font-family: 'Proza Libre', sans-serif;
     max-width: 100%;
- 
   }
 
 h1 {
@@ -45,12 +40,10 @@ h2 {
     text-transform: uppercase;
     margin: 1em 0;
     max-width: 100%;
-
 }
 
 h1, h2 {
     font-family: 'Proza Libre', sans-serif;
-
 }
 
 header {
@@ -76,33 +69,31 @@ header h1 {
     text-align: center;
     padding-top: 2.5rem;
     letter-spacing: .30rem;
-    max-width: 100%;
-    
+    max-width: 100%;    
 }
 
 header img {
     float: left;
     height: 6rem;
     width: 6rem;
-    max-width: 100%;
+    max-width: 20%;
     height: auto;
-  }
+}
 
 
 
 main {
   /* this is the page background */
     background-color: #94877e;
-   font-family: 'Proza Libre', sans-serif;
+    filter: none;
+    font-family: 'Proza Libre', sans-serif;
     padding-bottom: 3rem;
-    max-width: 100%;
-    
-   
+    max-width: 100%;  
 }
 
 nav a {
     color: #94877e; 
-  font-family: 'Proza Libre', sans-serif;
+    font-family: 'Proza Libre', sans-serif;
 }
 
 nav ul {
@@ -137,50 +128,48 @@ p a {
 }
 
 section {
-  max-width: 100%;
-  border-top: .5rem solid #94c840;
-  color: #3B1F07;
-  padding-bottom: 25rem;
+    max-width: 100%;
+    border-top: .5rem solid #94c840;
+    color: #3B1F07;
+    padding-bottom: 25rem;
 }
 
 section a {
-  font-size: 1.3rem;
+    font-size: 1.3rem;
 }
 
 section h1, h2, h3, p {
-  max-width: 100%;
-  padding-left: .75rem;
-  font-weight: normal;
-  font-family: 'Proza Libre', sans-serif;
+    max-width: 100%;
+    padding-left: .75rem;
+    font-weight: normal;
+    font-family: 'Proza Libre', sans-serif;
 }
 
 section h2 {
-  margin-bottom: -.5rem;
+    margin-bottom: -.5rem;
 }
 
 section h3 {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 section div h2, p {
-  max-width: 100%;
-  padding-top: 1rem;
-  padding-right: 1rem;
-  font-family: 'Proza Libre', sans-serif;
-  
+    max-width: 100%;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    font-family: 'Proza Libre', sans-serif;
 }
 
 .span_1_of_3 img {
-  max-width: 100%;
-  width: 20rem;
-  height: 15rem;
-
-
+ 
+    width: 20rem;
+    height: 15rem;
 }
+
 .span_1_of_2 img {
     max-width: 100%;
-  width: 29rem;
-  height: 30rem;
-  padding-top: 1.5rem;
-  padding-left: 2rem;
+    width: 29rem;
+    height: 30rem;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
 }
