@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Straight to the Point Archery</title>
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -12,10 +13,15 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </head>
+  <style>
+  @body-bg:    #fff;
+@text-color: @black-50;
+  
+  </style>
   <body>
     <main>
     <header>
-      
+      <div class="container-fluid">
         <img src="images/logo.jpg" alt="Logo" style="width:8rem;height:8rem;">
       <a href="signup.html"><button type="button" class="btn btn-success">Sign-up for a class or lesson today!</button></a>
       <div class="page-header">
@@ -23,41 +29,44 @@
       </div>
     </header>
         <nav>
-              <a href="index.html"><button type="button" class="btn btn-success">Home</button></a>
-              <a href="classes.html"><button type="button" class="btn btn-success">Classes</button></a>
-              <a href="lessons.html"><button type="button" class="btn btn-success">Lessons</button></a>
-              <a href="instructors.html"><button type="button" class="btn btn-success">Instructors</button></a>
-              <a href="about.html"><button type="button" class="btn btn-success">About</button></a>
-              <a href="signup.html"><button type="button" class="btn btn-success">Sign-up</button></a>
-              <a href="signup.html"><button type="button" class="btn btn-success">Contact</button></a>
-          
-        </nav>
+          <div class="container-fluid">
+            <ul class="nav nav-pills">
+                <li role="presentation" class="active"><a href="index.html">Home</a></li>
+                <li role="presentation"><a href="classes.html">Classes</a></li>
+                <li role="presentation"><a href="lessons.html">Lessons</a></li> 
+                <li role="presentation"><a href="instructors.html">Instructors</a></li>
+                <li role="presentation"><a href="about.html">About</a></li>
+                <li role="presentation"><a href="signup.html">Sign-Up</a></li>
+                <li role="presentation"><a href="contact.html">Contact</a></li>    
+             </nav>
       <section>
+      <div class="container-fluid">
       <div class="row">
       <div class="col-xs-12 col-md-8"><h2>Please Contact Us with Your Questions</h2>
        <form class="form-inline">
   <div class="form-group">
-    <label for="exampleInputName2">First Name</label>
-    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane">
+    <label for="exampleInputName2">First Name (required)</label> 
+     <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" placeholder="Jane"/></span> </p>
   </div>
   <br>
   <div class="form-group">
-    <label for="exampleInputName2">Last Name</label>
-    <input type="text" class="form-control" id="exampleInputName2"placeholder="Doe">
+    <label for="exampleInputName2">Last Name (required)</label>
+   <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" placeholder="Doe"/></span> </p>
   </div>
   <br>
     <div class="form-group">
-    <label for="exampleInputName2">Phone   </label>
-    <input type="text" class="form-control" id="exampleInputName2"placeholder="Doe">
+    <label for="exampleInputName2">Phone Number   </label>
+   <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" placeholder="Doe"/></span> </p>
   </div>
       <br>
   <div class="form-group">
-    <label for="exampleInputEmail2">Email</label>
+    <label for="exampleInputEmail2">Email Address (required)</label>
     <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
   </div> 
   <br>
   <br>
-  <textarea class="form-control" rows="4"></textarea>
+  <label for="exampleComments">Comments   </label>
+  <textarea class="form-control" rows="2" cols="52" placeholder="Text area"></textarea>
          <br>
          <br>
   <button type="submit" class="btn btn-default">Submit</button>
@@ -84,16 +93,15 @@
             <br>
             (Friday by appointment only)
         </p> 
-        <h2>Find us on:</h2></div>
+        <br>
+        <br>
+        <br>
+        <br>
       </div>
-        
-      <aside>
-        
-        
-        </aside>
        </section>
       </main>
       <footer>
+        <div class="container-fluid">
               copyright 2016 Straight to the Point Archery
       </footer>
   </body>
